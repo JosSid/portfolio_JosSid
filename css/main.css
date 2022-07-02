@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Header*/
+
 .banner {
     width: 100%;
     height: 100%;
@@ -100,7 +102,27 @@
     display: none;
 }
 
+/*Main*/
+
+/*Form*/
+
+.register__title {
+    margin: 10px auto;
+}
+
+
+.register {
+    text-align: center;
+    
+}
+
+.register__camp {
+    margin-bottom: 10px;
+    
+}
+
 /*Footer*/
+
 .rrss {
     width: 100%;
     height: 50px;
