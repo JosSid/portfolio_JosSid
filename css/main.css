@@ -123,11 +123,12 @@
 .projects__slides > div {
     width: 100%;
     background-color: #1b1b1b;
-    color: #f1f1f1;
     height: 100%;
+    border: 5px solid #3d3d3d;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .projects__slides {
@@ -149,12 +150,266 @@
     max-height: 398px;
     background-size: cover;
     background-image: url("/assets/web_design.png");
+    color: #070707;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .slide2 {
     max-height: 398px;
     background-size: cover;
     background-image: url("/assets/programa_web.png");
+    color: #f4f1f1;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.slide3 {
+    max-height: 398px;
+    background-size: cover;
+    background-image: url("/assets/programa_web.png");
+    color: #f4f1f1;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/*Progress*/
+
+.progress__dades {
+    margin: 10px 5px 10px;
+    padding: 100px auto;
+    border: 5px solid #3d3d3d;
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.profile__img {
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #3d3d3d;
+    border-radius: 5px;
+    
+}
+
+.progress__container-text {
+    margin-bottom: 15px;
+}
+
+.progress__skills {
+    margin: 0 5px 20px;
+    padding: 100px auto;
+    border: 5px solid #3d3d3d;
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+    text-align: center;
+    list-style: none;
+}
+
+.progress__skills li {
+    margin: 20px 10px;
+}
+
+.skill__bar {
+    background-color: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #2187e7b3;
+}
+
+.skill__bar span {
+    height: 10px;
+    float: left;
+    background: #2187e7;
+}
+
+/*Keyframes*/
+
+.html {
+    width: 90%;
+    animation: html 4s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+.css {
+    width: 75%;
+    animation: css 4s;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.javascript {
+    width: 60%;
+    animation: javascript 4s;
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.node {
+    width: 55%;
+    animation: node 4s;
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+.react {
+    width: 65%;
+    animation: react 4s;
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+.design {
+    width: 90%;
+    animation: design 4s;
+}
+
+@keyframes design {
+    0% {
+        width: 0%;
+    }
+
+    20% {
+        width: 100%;
+    }
+
+    50% {
+        width: 25%;
+    }
+
+    75% {
+        width: 50%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+/*img*/
+
+.img {
+    display: block;
+    margin: 10px auto;
+    border: 5px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: #f4f1f1;
+    text-align: center;
+    }
+
+.img__text {
+    display: block;
+    margin: 5px auto;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
 }
 
 /*Form*/
@@ -172,6 +427,10 @@
 .register__camp {
     margin-bottom: 10px;
     
+}
+
+.register__field {
+    margin-inline: 5px;
 }
 
 /*Footer*/
@@ -218,8 +477,15 @@
     .banner {
         background-repeat: repeat-x;
     }
+
+    .nav__logo {
+        font-size: 2.2em;
+        font-weight: 900;
+    }
  
 }
+
+
 
 @media screen and (max-width: 768px) {
     .nav__label {
@@ -238,7 +504,7 @@
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-         clip-path: circle(0 at center);  
+        clip-path: circle(0 at center);  
         transition: clip-path 1s ease-in-out;
     }
 

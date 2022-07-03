@@ -42,9 +42,9 @@
     <main>
         <section id="projects" class="projects__container">
             <div class="projects__slides">
-                <div id="slide1" class="slide1">Anounce 1</div>
-                <div id="slide2" class="slide2">Anounce 2</div>
-                <div id="slide3">Anounce 3</div>
+                <div id="slide1" class="slide1">Diseñamos</div>
+                <div id="slide2" class="slide2">Programamos</div>
+                <div id="slide3" class="slide3">Posicionamos</div>
             </div>
             <div class="projects__links">
                 <a class="projects__dot" href="#slide1"></a>
@@ -53,14 +53,61 @@
             </div>
         </section>
 
-        <section class="progress__container">
-
+        <section id="progress" class="progress__container">
+            <div class="progress__dades">
+                <img  class="profile__img" src="assets\foto_perfil.png" alt="foto_perfil">
+                <h1>Josep Valls Valls</h1>
+                <h2 class="progress__container-text">JosSid</h2>
+                <h5 class="progress__container-text">Alumno del Bootcamp Web 13 en KeepCoding</h5>
+            </div>
+            <div class="progress__skills">
+                <h1>Skills</h1>
+                <li>
+                    <h3>HTML</h3><span class="skill__bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3><span class="skill__bar"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JAVASCRIPT</h3><span class="skill__bar"><span class="javascript"></span></span>
+                </li>
+                <li>
+                    <h3>NODE-JS</h3><span class="skill__bar"><span class="node"></span></span>
+                </li>
+                <li>
+                    <h3>REACT</h3><span class="skill__bar"><span class="react"></span></span>
+                </li>
+                <li>
+                    <h3>DESIGN</h3><span class="skill__bar"><span class="design"></span></span>
+                </li>
+            </div>
+        </section>
+        
+        <section>
+            <figure>
+                <picture>
+                  <source
+                    media="(min-width: 800px)"
+                    srcset="
+                    assets\graffiti_LSDG.png"
+                  >
+                  <source
+                    media="(min-width: 600px)"
+                    srcset="assets\graffiti_LSDM.png"
+                  >
+                  <img class="img"
+                    src="assets\graffiti_LSDP.png"
+                    alt="a head carved out of wood"
+                  >
+                </picture>
+                <figcaption class="img__text">Logotipo "The Lights Sid's Dreams"</figcaption>
+              </figure>
         </section>
 
         <section class="register">
             
             <h2 id="register__title" class="register__title">Registrate</h2>
-            <form action="" method="post">
+            <form action="/register" method="post">
                 <div class="register__camp">
                     <label for="nombre">Nombre</label>
                     <input id="nombre" type="text" name="nombre" placeholder="Nombre" required>
@@ -79,11 +126,11 @@
                     <input type="text" name="usergit" id="usergit" 
                         placeholder="@username" pattern="^@[^\s]+">
                 </div>
-                <div>  
+                <div class="register__camp">  
                     <h3>Cuéntame que te interesa</h3>
                     <textarea name="descripccion" id="descripccion"      maxlength="180" rows="5" cols="36" required></textarea>              
                 </div>
-                <fieldset>
+                <fieldset class="register__field">
                     <legend>¿Como me conociste?</legend>
                     <label for="Universidad">Universidad</label>
                     <input type="radio" id="universidad" name="escuela" value="universidad" checked>
