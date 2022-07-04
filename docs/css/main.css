@@ -12,7 +12,7 @@
     padding: 9rem 3rem;
     margin-bottom: 35px;
     text-align: center;
-    background-image: url("assets/graffiti_LSDG.png");
+    background-image: url("/assets/graffiti_LSDG.png");
     background-color: rgba(0, 0, 0, .3);
     background-blend-mode: soft-light;
     background-size: contain;
