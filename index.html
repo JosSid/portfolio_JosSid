@@ -20,8 +20,8 @@
             <div class="nav__menu">
                 <a href="#banner" class="nav__item">Inicio</a>
                 <a href="#projects" class="nav__item">Proyectos</a>
-                <a href="#progress" class="nav__item">Progreso</a>
-                <a href="#register__title" class="nav__item">Registrate</a>
+                <a href="#progress" class="nav__item">Habilidades</a>
+                <a href="#register__title" class="nav__item">Contacto</a>
                 <a href="#rrss" class="nav__item">RRSS</a>
             </div>
         </div>
@@ -55,42 +55,49 @@
 
         <h1 id="progress" class="progress__team">LSD TEAM</h1>
 
-        <section class="progress__container">
-            
-            <div class="progress__dades">
-                <img  class="profile__img" src="assets\foto_perfil.png" alt="foto_perfil">
-                <h1>Josep Valls Valls</h1>
-                <h2 class="progress__container-text">JosSid</h2>
-                <h5 class="progress__container-text">Alumno del Bootcamp Web 13 en KeepCoding</h5>
+        <section >
+            <div class="progress__container">
+                <div class="progress__dades">
+                    <img  class="profile__img" src="assets\foto_perfil.png" alt="foto_perfil">
+                    <h1>Josep Valls Valls</h1>
+                    <h2 class="progress__container-text">JosSid</h2>
+                    <h5 class="progress__container-text">Alumno del Bootcamp Web 13 en KeepCoding</h5>
+                </div>
+                <div class="progress__skills">
+                    <h1>Skills</h1>
+                    <li>
+                        <h3>HTML</h3><span class="skill__bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <h3>CSS</h3><span class="skill__bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <h3>JAVASCRIPT</h3><span class="skill__bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <h3>NODE-JS</h3><span class="skill__bar"><span class="node"></span></span>
+                    </li>
+                    <li>
+                        <h3>REACT</h3><span class="skill__bar"><span class="react"></span></span>
+                    </li>
+                    <li>
+                        <h3>DESIGN</h3><span class="skill__bar"><span class="design"></span></span>
+                    </li>
+                </div>
             </div>
-            <div class="progress__skills">
-                <h1>Skills</h1>
-                <li>
-                    <h3>HTML</h3><span class="skill__bar"><span class="html"></span></span>
-                </li>
-                <li>
-                    <h3>CSS</h3><span class="skill__bar"><span class="css"></span></span>
-                </li>
-                <li>
-                    <h3>JAVASCRIPT</h3><span class="skill__bar"><span class="javascript"></span></span>
-                </li>
-                <li>
-                    <h3>NODE-JS</h3><span class="skill__bar"><span class="node"></span></span>
-                </li>
-                <li>
-                    <h3>REACT</h3><span class="skill__bar"><span class="react"></span></span>
-                </li>
-                <li>
-                    <h3>DESIGN</h3><span class="skill__bar"><span class="design"></span></span>
-                </li>
-            </div>
+        
+            <h1 id="progress" class="progress__hobbies-title">Hobbies</h1>
 
             <div class="progress__hobbies">
-                <h1>Hobbies</h1>
-                <img  class="profile__img" src="/assets/lindyhop.png" alt="swing dance">
-                <h3 class="hobbies__text">Swing Dance</h3>
-                <img  class="profile__img" src="/assets/guitar.png" alt="play guitar">
-                <h3>Play Guitar</h3>
+                <h1 class="hobbies__title">Hobbies</h1>
+                <div class="swing">
+                    <img  class="hobbies__img" src="/assets/lindyhop.png" alt="swing dance">
+                    <h3 class="progress__container-text">Swing Dance</h3>
+                </div>
+                <div class="guitar">
+                    <img  class="hobbies__img" src="/assets/guitar.png" alt="play guitar">
+                    <h3 class="progress__container-text">Play Guitar</h3>
+                </div>
             </div>
         </section>
         
@@ -117,7 +124,7 @@
 
         <section class="register">
             
-            <h2 id="register__title" class="register__title">Registrate</h2>
+            <h2 id="register__title" class="register__title">Contactame para + info</h2>
             <form action="/register" method="post">
                 <div class="register__camp">
                     <label for="nombre">Nombre</label>
@@ -153,16 +160,16 @@
                     <input type="radio" id="github" name="escuela" value="github">
                 </fieldset>
                 <div>
-                    <input class="btn" type="submit" value="Registrarme">
+                    <input class="btn btn__info" type="submit" value="Solicito Informacion">
                 </div>
             </form>
         </section>
     </main>
 
     <footer id="rrss" class="rrss">
-        <a href="https://www.instagram.com/josssid/" class="item-rrss ig"></a>
+        <a href="https://www.instagram.com/josssid/" class="item-rrss ig" target="_blank" rel="noopener noreferrer"></a>
         <a href="mailto:alfredvays@gmail.com" class="item-rrss mail"></a>
-        <a href="https://www.facebook.com/josep.vallsvalls" class="item-rrss face"></a>
+        <a href="https://www.facebook.com/josep.vallsvalls" class="item-rrss face" target="_blank" rel="noopener noreferrer"></a>
     </footer>
     
 </body>
