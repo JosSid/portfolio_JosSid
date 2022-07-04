@@ -27,5 +27,5 @@ Y finalmente he dejado unos *links* en el *footer* a mis *RRSS*.
 ## Preview
 
 
-![](/preview.jpg)
+![](/lsd_movile.png)
 
