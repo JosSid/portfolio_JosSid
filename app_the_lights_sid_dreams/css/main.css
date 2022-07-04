@@ -486,22 +486,33 @@
     
 }
 
-.ig {
+.item-rrss::after {
+    opacity: 1;
+}
+
+.item-rrss:hover {
+    opacity: 0.5;
+}
+
+.ig, .mail, .face, .whats {
     height: 32px;
     width: 32px;
+}
+
+.ig {
     background-image: url("/assets/logo_ig.png");
 }
 
+.whats {
+    background-image: url("/assets/logo_whattsap.png");
+}
+
 .mail {
-    height: 32px;
-    width: 32px;
     background-image: url("/assets/logo_gmail.png");
    
 }
 
 .face {
-    height: 32px;
-    width: 32px;
     background-image: url("/assets/logo_face.png");
 }
 
