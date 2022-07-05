@@ -12,7 +12,7 @@
     padding: 9rem 3rem;
     margin-bottom: 35px;
     text-align: center;
-    background-image: url("assets/graffiti_LSDG.png");
+    background-image: url("../assets/graffiti_LSDG.png");
     background-color: rgba(0, 0, 0, .3);
     background-blend-mode: soft-light;
     background-size: contain;
@@ -150,7 +150,7 @@
 .slide1 {
     max-height: 398px;
     background-size: cover;
-    background-image: url("assets/web_design.png");
+    background-image: url("../assets/web_design.png");
     color: #070707;
     font-size: 2.2rem;
     font-weight: bolder;
@@ -160,7 +160,7 @@
 .slide2 {
     max-height: 398px;
     background-size: cover;
-    background-image: url("assets/programa_web.png");
+    background-image: url("../assets/programa_web.png");
     color: #f4f1f1;
     font-size: 2.2rem;
     font-weight: bolder;
@@ -170,7 +170,7 @@
 .slide3 {
     max-height: 398px;
     background-size: cover;
-    background-image: url("assets/posicionamiento.png");
+    background-image: url("../assets/posicionamiento.png");
     color: #070707;
     font-size: 2.2rem;
     font-weight: bolder;
@@ -500,20 +500,20 @@
 }
 
 .ig {
-    background-image: url("assets/logo_ig.png");
+    background-image: url("../assets/logo_ig.png");
 }
 
 .whats {
-    background-image: url("assets/logo_whattsap.png");
+    background-image: url("../assets/logo_whattsap.png");
 }
 
 .mail {
-    background-image: url("assets/logo_gmail.png");
+    background-image: url("../assets/logo_gmail.png");
    
 }
 
 .face {
-    background-image: url("assets/logo_face.png");
+    background-image: url("../assets/logo_face.png");
 }
 
 /*Queries*/
@@ -566,17 +566,17 @@
 
     .slide1 {
         background-size: auto;
-        background-image: url("assets/web_designG.png");
+        background-image: url("../assets/web_designG.png");
     }
 
     .slide2 {
         background-size: auto;
-        background-image: url("assets/programa_webG.png");
+        background-image: url("../assets/programa_webG.png");
     }
 
     .slide3 {
         background-size: auto;
-        background-image: url("assets/posicionamientoG.png");
+        background-image: url("../assets/posicionamientoG.png");
     }
 }
 
