@@ -32,6 +32,7 @@ body {
 
 .banner h1 {
     color: var(--txt-color);
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .contact {
@@ -480,6 +481,7 @@ body {
 .btn__info {
     width: 18rem;
     color: var(--txt-color);
+    cursor: pointer;
 }
 
 /*Footer*/
