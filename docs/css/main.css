@@ -506,7 +506,7 @@ body {
     opacity: 0.5;
 }
 
-.ig, .mail, .face, .whats {
+.ig, .mail, .face, .whats, .spotify {
     height: 32px;
     width: 32px;
 }
@@ -517,6 +517,10 @@ body {
 
 .whats {
     background-image: url("../assets/logo_whattsap.png");
+}
+
+.spotify {
+    background-image: url("../assets/logo_spotify.png");
 }
 
 .mail {
