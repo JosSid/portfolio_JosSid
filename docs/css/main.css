@@ -200,6 +200,10 @@ body {
     text-align: center;
 }
 
+.rock {
+    margin-bottom: 10px;
+}
+
 .progress__dades, .progress__skills {
     height: 400px;
     margin: 10px 5px 10px;
@@ -265,6 +269,32 @@ body {
     height: 10px;
     float: left;
     background: #2187e7;
+}
+
+.progress__rock {
+    width: 310px;
+    height: 500px;
+    margin: 0 auto 10px;
+    padding: 100px auto;
+    border: 5px solid var(--bg-color);
+    border-radius: 3px;
+    background-image: url("../assets/born_to_rock.png");
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.btn__rock {
+    width: 15rem;
+    height: 3rem;
+    margin: 1rem;
+    margin-top: 90px;
+    font-size: 1.5rem;
+    background-color: var(--bg-color);
+    border-radius: 50px;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, .3);
+    color: var(--txt-color);
+    cursor: pointer;
 }
 
 /*Keyframes*/
