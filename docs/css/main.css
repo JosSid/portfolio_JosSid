@@ -528,11 +528,11 @@ body {
     
 }
 
-.item-rrss::after {
+.item__rrss::after {
     opacity: 1;
 }
 
-.item-rrss:hover {
+.item__rrss:hover {
     opacity: 0.5;
 }
 
