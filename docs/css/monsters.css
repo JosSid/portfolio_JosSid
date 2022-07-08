@@ -46,6 +46,7 @@ body {
     height:0;
     border: 10px solid var(--txt2-color);
     border-radius: 10px;
+    
 }
 
 .container__video__head iframe{
@@ -334,6 +335,9 @@ main {
 
     
 @media  screen and (min-width: 1440px) {
+    .band {
+        height: 850px;
+    }
     .container__video__head {
         padding-bottom: 650px;
     }
